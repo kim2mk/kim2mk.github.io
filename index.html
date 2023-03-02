@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Portfolio</title>
+  <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <a href="#"></a>
+    <ul class="navlist">
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact Me</a></li>
+    </ul>
+    <div class="bx bx-menu" id="menu-icon">
+
+    </div>
+  </header>
+  <section class="home" id="home">
+    <div class="home-text">
+      <!-- <div class="slide">
+        <span class="one">Hello</span>
+        <span class="two">I'm</span>
+      </div> -->
+      <h1>Michael Kim</h1>
+      <h3><span>Full Stack</span> Developer</h3>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur dolore quo nobis
+        <br> vero ut labore officiis voluptates sit architecto aspernatur? Veniam accusantium ab odio recusandae tempore, soluta harum vero officiis.
+      </p> -->
+      <div class="button">
+        <a href="file:///C:/Users/Michael/Downloads/Resume%20(5).pdf" class="btn">Resume</a>
+        <a href="https://github.com/kim2mk" class="btn2">
+          <span><i class='bx bxl-github'></i></span>
+        </a>
+        <a href="https://www.linkedin.com/in/kim2mk/" class="btn2">
+          <span><i class='bx bxl-linkedin-square' ></i></span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="img/aboutme.jpg">
+    </div>
+    <div class="about-text">
+      <h2>About <span>Me</span></h2>
+      <h4>Full Stack Developer</h4>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam eum quaerat rerum accusamus iste? Amet totam, dolores consequuntur, 
+        molestiae sint quibusdam doloribus quaerat maxime aliquam quam porro eum corporis doloremque.
+      </p>
+      <a href="#contact" class="btn">Contact</a>
+    </div>
+  </section>
+
+  <section class="portfolio" id="portfolio">
+    <div class="main-text">
+      <p>Portfolio</p>
+      <h2><span>Latest</span> Project</h2>
+    </div>
+    <div class="portfolio-content">
+      <div class="row">
+        <img src="img/project1.jpg">
+        <div class="layer">
+          <h5>Netflix Clone</h5>
+          <p>Using React, recreated the Netflix home page. Utilizing TMDB API, built reusable components to display the most up-to-date shows and movies.</p>
+          <div class="portfolio-links">
+            <a href="https://github.com/kim2mk/netflix-clone-api"><i class='bx bxl-github' ></i></a>
+            <a href="http://netflix-clone-api.s3-website-us-east-1.amazonaws.com/"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <img src="img/project2.jpg">
+        <div class="layer">
+          <h5>Cafe Coffee</h5>
+          <p>Using React, built a website for a small coffee shop that allows users to quickly add and purchase different drinks.</p>
+          <div class="portfolio-links">
+            <a href="https://github.com/kim2mk/e-commerce-cafe"><i class='bx bxl-github' ></i></a>
+            <a href="http://e-commerce-cafe.s3-website-us-east-1.amazonaws.com/"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <img src="img/project3.jpg">
+        <div class="layer">
+          <h5>Tesla Clone</h5>
+          <p>Check this project out.</p>
+          <div class="portfolio-links">
+            <a href="#"><i class='bx bxl-github' ></i></a>
+            <a href="#"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="contact-text">
+      <h2>Contact <span>Me</span></h2>
+      <h4></h4>
+      <!-- <p>I am a developer</p> -->
+      <div class="list">
+        <li><a href="#">(123) 456 - 7890</a></li>
+        <li><a href="#">hello@gmail.com</a></li>
+      </div>
+
+      <div class="contact-icons">
+        <a href="#"><i class='bx bxl-facebook-square' ></i></a>
+        <a href="#"><i class='bx bxl-twitter' ></i></a>
+        <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+        <a href="#"><i class='bx bxl-youtube' ></i></a>
+      </div>
+    </div>
+
+    <div class="contact-form">
+      <form action="">
+        <input type="name" placeholder="Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <input type="" placeholder="Mobile Number" required>
+        <textarea name="" id="" cols="35" rows="10" 
+          placeholder="Message..." required"></textarea>
+        <input type="submit" value="Send Message" class="submit" required>
+      </form>
+    </div>
+  </section>
+
+  <script type="text/javascript" src="js/script.js"></script>
+  
+</body>
+</html>
