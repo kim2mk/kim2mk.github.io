@@ -216,7 +216,7 @@ header.sticky {
 .about-text h4 {
   font-size: 24px;
   font-weight: 600;
-  color: var(--text-color);
+  color: var(--second-color);
   line-height: 1.7;
   margin: 15px 0 30px;
 }
@@ -261,7 +261,8 @@ header.sticky {
 
 .row img {
   width: 100%;
-  border-radius: 8px;
+  height: 500px;
+  border-radius: 10px;
   display: block;
   transition: transform 0.5s;
 }
